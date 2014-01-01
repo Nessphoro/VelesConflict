@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Campaign>
+  <Name>Tutorial</Name>
+  <InternalName>Tutorial</InternalName>
+  <ShortDescription>New to the game? Play this first!</ShortDescription>
+  <LongDescription>Welcome to the Veles Conflict Tutorial, over the next couple of minutes you will be taught how to play the game, research, and in the end - dominate the universe. Please pay close attention to the information presented in popup windows</LongDescription>
+  <Epilogue>After you click "Select" you will be brough back to the campaign selection menu. Choose your adventure!</Epilogue>
+  <Gameplay>
+    <Episode>
+      <Name>Tutorial Episode</Name>
+      <Description>To make sure you're fit for the task ahead of you, you must first complete the crash course.</Description>
+      <EpisodePopup></EpisodePopup>
+      <Position>0</Position>
+      <Cells>0</Cells>
+      <Missions>
+        <Mission>
+          <Name>Tutorial Mission</Name>
+          <PointsGain>1</PointsGain>
+          <Map>XAP\Maps\Tutorial\Tutorial.xml</Map>
+          <Player1TexturePack>Tilarian</Player1TexturePack>
+          <Player2TexturePack>Androids</Player2TexturePack>
+          <Description>This mission will teach you the basics of combat</Description>
+          <Popup>Congratulations! You have succesfully completed the Veles Conflict tutorial</Popup>
+        </Mission>
+      </Missions>
+    </Episode>
+  </Gameplay>
+</Campaign>

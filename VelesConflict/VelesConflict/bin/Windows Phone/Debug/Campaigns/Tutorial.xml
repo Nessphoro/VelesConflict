@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Campaign>
+  <Name>Tutorial</Name>
+  <InternalName>Tutorial</InternalName>
+  <ShortDescription>New to the game? Play this first!</ShortDescription>
+  <LongDescription></LongDescription>
+  <Epilogue></Epilogue>
+  <Gameplay>
+    <Episode>
+      <Name>Tutorial Episode</Name>
+      <Description>For centuries Tilarian astronomers have observed GHP-352, and yet only explored 6% of the solar systems in the galaxy. Very comfortable planets were unable to be detected, but perhaps you will have better luck.</Description>
+      <Position>0</Position>
+      <Missions>
+        <Mission>
+          <Name>Tutorial Mission</Name>
+          <PointsGain>1</PointsGain>
+          <Map>XAP\Maps\Tutorial\Tutorial.xml</Map>
+          <Player1TexturePack>Tilarian</Player1TexturePack>
+          <Player2TexturePack>Androids</Player2TexturePack>
+          <Description>This mission will teach you the basics of combat</Description>
+          <Popup>Congratulations! You have succesfully completed the Veles Conflict tutorial</Popup>
+        </Mission>
+      </Missions>
+    </Episode>
+  </Gameplay>
+</Campaign>

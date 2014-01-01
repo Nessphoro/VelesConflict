@@ -1,0 +1,15 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="VelesConflict" EntryPointType="VelesConflict.Shared.GameBase" RuntimeVersion="3.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="VelesConflict" Source="VelesConflict.dll" />
+    <AssemblyPart x:Name="Atom.Engine" Source="Atom.Engine.dll" />
+    <AssemblyPart x:Name="Atom.Graph" Source="Atom.Graph.dll" />
+    <AssemblyPart x:Name="Atom.Shared" Source="Atom.Shared.dll" />
+    <AssemblyPart x:Name="AtomNetworkWP.TCP" Source="AtomNetworkWP.TCP.dll" />
+    <AssemblyPart x:Name="Microsoft.Advertising.Mobile" Source="Microsoft.Advertising.Mobile.dll" />
+    <AssemblyPart x:Name="Microsoft.Advertising.Mobile.Xna" Source="Microsoft.Advertising.Mobile.Xna.dll" />
+    <AssemblyPart x:Name="NewsAgent" Source="NewsAgent.dll" />
+    <AssemblyPart x:Name="PGGI" Source="PGGI.dll" />
+    <AssemblyPart x:Name="SOMAWP7" Source="SOMAWP7.dll" />
+    <AssemblyPart Source="ru-RU/VelesConflict.resources.dll" />
+  </Deployment.Parts>
+</Deployment>

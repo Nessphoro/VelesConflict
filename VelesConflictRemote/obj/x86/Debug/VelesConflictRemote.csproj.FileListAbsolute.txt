@@ -1,0 +1,4 @@
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\VelesConflictRemote\bin\Debug\VelesConflictRemote.exe
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\VelesConflictRemote\bin\Debug\VelesConflictRemote.pdb
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\VelesConflictRemote\obj\x86\Debug\VelesConflictRemote.exe
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\VelesConflictRemote\obj\x86\Debug\VelesConflictRemote.pdb

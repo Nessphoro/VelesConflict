@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Reporting" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://api.velesconflict.com/Reporting/Reporting.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://api.velesconflict.com/Reporting/Reporting.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://api.velesconflict.com/Reporting/Reporting.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/VelesConflictDataReporting" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IReportingService_RegisterDevice_InputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterDevice" />
+  </wsdl:message>
+  <wsdl:message name="IReportingService_RegisterDevice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RegisterDeviceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportingService_AddGameUsageStastics_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddGameUsageStastics" />
+  </wsdl:message>
+  <wsdl:message name="IReportingService_AddGameUsageStastics_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddGameUsageStasticsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportingService_AddMenuUsageStastics_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddMenuUsageStastics" />
+  </wsdl:message>
+  <wsdl:message name="IReportingService_AddMenuUsageStastics_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddMenuUsageStasticsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportingService_AddBatchMenuUsageStastics_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddBatchMenuUsageStastics" />
+  </wsdl:message>
+  <wsdl:message name="IReportingService_AddBatchMenuUsageStastics_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddBatchMenuUsageStasticsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportingService_AddBatchGameUsageStastics_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddBatchGameUsageStastics" />
+  </wsdl:message>
+  <wsdl:message name="IReportingService_AddBatchGameUsageStastics_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddBatchGameUsageStasticsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IReportingService_GetLatestNews_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLatestNews" />
+  </wsdl:message>
+  <wsdl:message name="IReportingService_GetLatestNews_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLatestNewsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IReportingService">
+    <wsdl:operation name="RegisterDevice">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportingService/RegisterDevice" message="tns:IReportingService_RegisterDevice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportingService/RegisterDeviceResponse" message="tns:IReportingService_RegisterDevice_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddGameUsageStastics">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportingService/AddGameUsageStastics" message="tns:IReportingService_AddGameUsageStastics_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportingService/AddGameUsageStasticsResponse" message="tns:IReportingService_AddGameUsageStastics_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddMenuUsageStastics">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportingService/AddMenuUsageStastics" message="tns:IReportingService_AddMenuUsageStastics_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportingService/AddMenuUsageStasticsResponse" message="tns:IReportingService_AddMenuUsageStastics_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddBatchMenuUsageStastics">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportingService/AddBatchMenuUsageStastics" message="tns:IReportingService_AddBatchMenuUsageStastics_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportingService/AddBatchMenuUsageStasticsResponse" message="tns:IReportingService_AddBatchMenuUsageStastics_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddBatchGameUsageStastics">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportingService/AddBatchGameUsageStastics" message="tns:IReportingService_AddBatchGameUsageStastics_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportingService/AddBatchGameUsageStasticsResponse" message="tns:IReportingService_AddBatchGameUsageStastics_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLatestNews">
+      <wsdl:input wsaw:Action="http://tempuri.org/IReportingService/GetLatestNews" message="tns:IReportingService_GetLatestNews_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IReportingService/GetLatestNewsResponse" message="tns:IReportingService_GetLatestNews_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IReportingService" type="tns:IReportingService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="RegisterDevice">
+      <soap:operation soapAction="http://tempuri.org/IReportingService/RegisterDevice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddGameUsageStastics">
+      <soap:operation soapAction="http://tempuri.org/IReportingService/AddGameUsageStastics" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddMenuUsageStastics">
+      <soap:operation soapAction="http://tempuri.org/IReportingService/AddMenuUsageStastics" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddBatchMenuUsageStastics">
+      <soap:operation soapAction="http://tempuri.org/IReportingService/AddBatchMenuUsageStastics" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddBatchGameUsageStastics">
+      <soap:operation soapAction="http://tempuri.org/IReportingService/AddBatchGameUsageStastics" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLatestNews">
+      <soap:operation soapAction="http://tempuri.org/IReportingService/GetLatestNews" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Reporting">
+    <wsdl:port name="BasicHttpBinding_IReportingService" binding="tns:BasicHttpBinding_IReportingService">
+      <soap:address location="http://api.velesconflict.com/Reporting/Reporting.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

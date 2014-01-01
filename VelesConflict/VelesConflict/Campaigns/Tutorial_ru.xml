@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Campaign>
+  <Name>Обучение</Name>
+  <InternalName>Tutorial</InternalName>
+  <ShortDescription>Первый раз в игре? Пройдите обучение!</ShortDescription>
+  <LongDescription>Добро пожаловать в обучение Конфликт Велеса, в течении нескольких пары минут вы научитесь базовым навыкам игры.</LongDescription>
+  <Epilogue>После того как вы нажмете "Выбрать" вы пройдете в следующее меню. Приготовитесь к приключениям!</Epilogue>
+  <Gameplay>
+    <Episode>
+      <Name>Обучение</Name>
+      <Description>Дабы быть уверенным, что  вы сможете справиться с последующими заданиями, вы пройдете курс молодого бойца.</Description>
+      <EpisodePopup></EpisodePopup>
+      <Position>0</Position>
+      <Cells>0</Cells>
+      <Missions>
+        <Mission>
+          <Name>Обучающее задание</Name>
+          <PointsGain>1</PointsGain>
+          <Map>XAP\Maps\Tutorial\Tutorial.xml</Map>
+          <Player1TexturePack>Tilarian</Player1TexturePack>
+          <Player2TexturePack>Androids</Player2TexturePack>
+          <Description>Задание для базовых тактических навыков</Description>
+          <Popup>Поздравляем! Вы закончили обучение! Теперь, будте готовы к настоящим сражениям!</Popup>
+        </Mission>
+      </Missions>
+    </Episode>
+  </Gameplay>
+</Campaign>

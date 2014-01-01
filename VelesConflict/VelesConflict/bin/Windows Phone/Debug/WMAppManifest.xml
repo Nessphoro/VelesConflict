@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
+  <App xmlns="" ProductID="{279686d4-0cd0-4ce5-a621-d47fbc4820e1}" Title="Veles Conflict" RuntimeType="XNA" Version="1.0.0.0" Genre="Apps.Game" Author="Pin Games" Description="" Publisher="Pin Games">
+    <IconPath IsRelative="true" IsResource="false">07Tile.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_LOCATION" />
+      <Capability Name="ID_CAP_SENSORS" />
+      <Capability Name="ID_CAP_MICROPHONE" />
+      <Capability Name="ID_CAP_MEDIALIB" />
+      <Capability Name="ID_CAP_GAMERSERVICES" />
+      <Capability Name="ID_CAP_PHONEDIALER" />
+      <Capability Name="ID_CAP_PUSH_NOTIFICATION" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+      <Capability Name="ID_CAP_IDENTITY_USER" />
+      <Capability Name="ID_CAP_IDENTITY_DEVICE" />
+      <!-- Windows Phone OS 7.1 Capabilities -->
+      <Capability Name="ID_CAP_ISV_CAMERA" />
+      <Capability Name="ID_CAP_CONTACTS" />
+      <Capability Name="ID_CAP_APPOINTMENTS" />
+    </Capabilities>
+    <Requirements>
+      <Requirement Name="ID_REQ_MEMORY_90" />
+    </Requirements>
+    <Tasks>
+      <DefaultTask Name="_default" />
+      <ExtendedTask Name="BackgroundTask">
+        <BackgroundServiceAgent Specifier="ScheduledTaskAgent" Name="NewsAgent" Source="NewsAgent" Type="NewsAgent.ScheduledAgent" />
+      </ExtendedTask>
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="VelesConflictToken" TaskName="_default">
+        <TemplateType5>
+          <BackgroundImageURI IsRelative="true" IsResource="false">07Large.png</BackgroundImageURI>
+          <Count>0</Count>
+          <Title>DefaultTile</Title>
+        </TemplateType5>
+      </PrimaryToken>
+    </Tokens>
+  </App>
+</Deployment>
+<!-- WPSDK Version 7.1.8773.0 -->

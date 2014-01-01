@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AvailablePoints" xml:space="preserve">
+    <value>Доступные Очки</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Продолжить</value>
+  </data>
+  <data name="Difficulty" xml:space="preserve">
+    <value>Сложность</value>
+  </data>
+  <data name="DifficultyEasy" xml:space="preserve">
+    <value>Лёгкий</value>
+  </data>
+  <data name="DifficultyHard" xml:space="preserve">
+    <value>Тяжёлый</value>
+  </data>
+  <data name="DifficultyInsane" xml:space="preserve">
+    <value>Невозможный</value>
+  </data>
+  <data name="DifficultyMedium" xml:space="preserve">
+    <value>Средний</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Выйти</value>
+  </data>
+  <data name="GG" xml:space="preserve">
+    <value>GG</value>
+  </data>
+  <data name="Locale" xml:space="preserve">
+    <value>ru</value>
+  </data>
+  <data name="NewGame" xml:space="preserve">
+    <value>Новая игра</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Играть</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Оценить</value>
+  </data>
+  <data name="Research" xml:space="preserve">
+    <value>Иследовать</value>
+  </data>
+  <data name="Science1" xml:space="preserve">
+    <value>Увеличить прирост
+
+
+
+
+
+С помощью новых изобретений в генной инженерии вы можете увеличить прирост население на всех планетах данной системы!
+
+	LightGreen	+10%	White	к приросту населения
+
+Цена: {0}</value>
+  </data>
+  <data name="Science2" xml:space="preserve">
+    <value>Увеличить скорость
+
+
+
+ 
+
+Новейшие исследования в кораблестроение помогут вам увеличить скорость ваших кораблей!
+
+	LightGreen	+7%	White	к скорости кораблей 
+
+Цена: {0}</value>
+  </data>
+  <data name="Science3" xml:space="preserve">
+    <value>Увеличить атаку
+
+
+
+
+
+Установление новых орудий позволит сокрушить любую защиту противника!
+
+	LightGreen	+8%	White	к атака кораблей
+
+Цена: {0}</value>
+  </data>
+  <data name="Science4" xml:space="preserve">
+    <value>Увеличение брони
+
+
+
+
+
+Ваше ученые добились неслыханной устойчивости в новых металлах, что значительно увеличивает вашу защиту!
+
+	LightGreen	+10%	White	 к защите
+
+Цена: {0}</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Поделиться</value>
+  </data>
+  <data name="ShareText" xml:space="preserve">
+    <value>Я поиграл в</value>
+  </data>
+  <data name="Tutorial0" xml:space="preserve">
+    <value>С правой стороны информационное меню. Здесь вы сможете увидите справку о данном
+эпизоде / задании.
+Нажмите, чтобы продолжить...</value>
+  </data>
+  <data name="Tutorial1" xml:space="preserve">
+    <value>В центре находиться Стратегическая карта. Клетка желтого цвета - текущий эпизод
+Нажмите, чтобы продолжить...</value>
+  </data>
+  <data name="Tutorial2" xml:space="preserve">
+    <value>Что бы зайти в меню исследований - перетащите ДНК иконку в нижний-левый угол.
+Зайдите в это меню сейчас.
+Нажмите, чтобы продолжить...</value>
+  </data>
+  <data name="Tutorial3" xml:space="preserve">
+    <value>В данном меню вы можете потратить очки науки на исследования.
+Что бы выйти с этого меню перетащите заначек ДНК в начальную позицию.
+Нажмите, чтобы продолжить...</value>
+  </data>
+  <data name="Tutorial4" xml:space="preserve">
+    <value>Это окно миссий - здесь вы можете выбрать миссию для начала игры.
+Нажмите, чтобы продолжить...</value>
+  </data>
+  <data name="Tutorial5" xml:space="preserve">
+    <value>Перед вами находятся три планеты. Планета зеленого цвета - ваша,
+красного - вашего соперника.
+В центре находиться нейтральная планета. Что бы атаковать планеты,
+выберите ваши планеты
+и двойной-клик на планете соперника.
+Нажмите, чтобы продолжить...</value>
+  </data>
+</root>

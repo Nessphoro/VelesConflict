@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <Animation>
+    <Name>StrategicEpisodeSelection</Name>
+    <Texture>SpriteSheet</Texture>
+    <Rollover>true</Rollover>
+    <NumberOfSprites>120</NumberOfSprites>
+    <Dimensions>64 64</Dimensions>
+	  <Reverse>true</Reverse>
+    <Start>0 0</Start>
+  </Animation>
+</root>

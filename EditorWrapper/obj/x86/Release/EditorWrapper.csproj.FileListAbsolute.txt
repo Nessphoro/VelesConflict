@@ -1,0 +1,26 @@
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\bin\Release\Content\GameFont.xnb
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\bin\Release\Content\Planet.xnb
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\bin\Release\EditorWrapper.exe
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\bin\Release\EditorWrapper.pdb
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\bin\Release\Editor.dll
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\bin\Release\Editor.pdb
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\obj\x86\Release\EditorWrapper.csprojResolveAssemblyReference.cache
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\obj\x86\Release\EditorWrapper.WrapperForm.resources
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\obj\x86\Release\EditorWrapper.Properties.Resources.resources
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\obj\x86\Release\EditorWrapper.csproj.GenerateResource.Cache
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\obj\x86\Release\EditorWrapper.exe
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\obj\x86\Release\EditorWrapper.pdb
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\obj\x86\Release\EditorWrapper.PhoneSelectForm.resources
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\bin\Release\Content\GameFont.xnb
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\bin\Release\Content\Planet.xnb
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\bin\Release\EditorWrapper.exe
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\bin\Release\EditorWrapper.pdb
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\bin\Release\Editor.dll
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\bin\Release\Editor.pdb
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\obj\x86\Release\EditorWrapper.csprojResolveAssemblyReference.cache
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\obj\x86\Release\EditorWrapper.PhoneSelectForm.resources
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\obj\x86\Release\EditorWrapper.WrapperForm.resources
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\obj\x86\Release\EditorWrapper.Properties.Resources.resources
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\obj\x86\Release\EditorWrapper.csproj.GenerateResource.Cache
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\obj\x86\Release\EditorWrapper.exe
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\EditorWrapper\obj\x86\Release\EditorWrapper.pdb

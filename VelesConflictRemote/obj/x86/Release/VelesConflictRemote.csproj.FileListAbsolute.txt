@@ -1,0 +1,10 @@
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\VelesConflictRemote\bin\Release\VelesConflictRemote.exe
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\VelesConflictRemote\bin\Release\VelesConflictRemote.pdb
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\VelesConflictRemote\obj\x86\Release\VelesConflictRemote.exe
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\VelesConflictRemote\obj\x86\Release\VelesConflictRemote.pdb
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\VelesConflictRemote\obj\x86\Release\VelesConflictRemote.csprojResolveAssemblyReference.cache
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\VelesConflictRemote\bin\Release\VelesConflictRemote.exe
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\VelesConflictRemote\bin\Release\VelesConflictRemote.pdb
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\VelesConflictRemote\obj\x86\Release\VelesConflictRemote.csprojResolveAssemblyReference.cache
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\VelesConflictRemote\obj\x86\Release\VelesConflictRemote.exe
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\VelesConflictRemote\obj\x86\Release\VelesConflictRemote.pdb

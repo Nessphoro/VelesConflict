@@ -1,0 +1,12 @@
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\NewsAgent\Bin\Release\NewsAgent.dll
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\NewsAgent\Bin\Release\NewsAgent.pdb
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\NewsAgent\obj\Release\NewsAgent.g.resources
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\NewsAgent\obj\Release\NewsAgent.dll
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\NewsAgent\obj\Release\NewsAgent.pdb
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\NewsAgent\obj\Release\NewsAgent.csprojResolveAssemblyReference.cache
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\NewsAgent\Bin\Release\NewsAgent.dll
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\NewsAgent\Bin\Release\NewsAgent.pdb
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\NewsAgent\obj\Release\NewsAgent.g.resources
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\NewsAgent\obj\Release\NewsAgent.dll
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\NewsAgent\obj\Release\NewsAgent.pdb
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\NewsAgent\obj\Release\NewsAgent.csprojResolveAssemblyReference.cache

@@ -1,0 +1,16 @@
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\bin\x86\Release\Content\GameFont.xnb
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\bin\x86\Release\Content\Planet.xnb
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\bin\x86\Release\Editor.dll
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\bin\x86\Release\Editor.pdb
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\obj\x86\Release\Editor.dll
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\obj\x86\Release\Editor.pdb
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\obj\x86\Release\Editor.csprojResolveAssemblyReference.cache
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\bin\x86\Release\Content\GameFont.xnb
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\bin\x86\Release\Content\Planet.xnb
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\bin\x86\Release\Editor.dll
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\bin\x86\Release\Editor.pdb
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\obj\x86\Release\Editor.csprojResolveAssemblyReference.cache
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\obj\x86\Release\Editor.dll
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\obj\x86\Release\Editor.pdb

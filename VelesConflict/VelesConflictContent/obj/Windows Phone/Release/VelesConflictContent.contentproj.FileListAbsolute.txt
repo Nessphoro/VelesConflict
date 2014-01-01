@@ -1,0 +1,2 @@
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\VelesConflict\VelesConflictContent\obj\Windows Phone\Release\VelesConflictContent.contentprojResolveAssemblyReference.cache
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\VelesConflict\VelesConflictContent\obj\Windows Phone\Release\VelesConflictContent.contentprojResolveAssemblyReference.cache

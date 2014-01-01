@@ -1,0 +1,24 @@
+﻿<configuration>
+  <system.serviceModel>
+    <bindings>
+      <basicHttpBinding>
+        <binding name="BasicHttpBinding_IReportingService" maxBufferSize="2147483647"
+          maxReceivedMessageSize="2147483647">
+          <security mode="None" />
+        </binding>
+        <binding name="BasicHttpBinding_IReportingService1" maxBufferSize="2147483647"
+          maxReceivedMessageSize="2147483647">
+          <security mode="None" />
+        </binding>
+      </basicHttpBinding>
+    </bindings>
+    <client>
+      <endpoint address="http://api.velesconflict.com/Reporting/Reporting.svc"
+        binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IReportingService"
+        contract="VelesConflictReporting.IReportingService" name="BasicHttpBinding_IReportingService" />
+      <endpoint address="http://api.velesconflict.com/Reporting/Reporting.svc"
+        binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IReportingService1"
+        contract="VelesConflictReporting.IReportingService" name="BasicHttpBinding_IReportingService1" />
+    </client>
+  </system.serviceModel>
+</configuration>

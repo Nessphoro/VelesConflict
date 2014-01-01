@@ -1,0 +1,358 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PGGI</name>
+    </assembly>
+    <members>
+        <member name="T:PGGI.PGGIProvider">
+            <summary>
+            Provides an interface to the PGGI API. This class cannot be inherited
+            </summary>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginLogin(System.Boolean,System.AsyncCallback,System.Object)">
+            <summary>
+            Begins an asyncronous operation to login in the user and acquire an access token
+            </summary>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <param name="Encrypted">Is the password already encrypted</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.EndLogin(System.IAsyncResult)">
+            <summary>
+            Finishes the login operation
+            </summary>
+            <param name="result">Asyncronous state</param>
+            <returns>Login result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginGetName(System.Guid,System.AsyncCallback,System.Object)">
+            <summary>
+            Begins an asyncronous operation to query for a user's name using a guid
+            </summary>
+            <param name="guid">Guid</param>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.EndGetName(System.IAsyncResult)">
+            <summary>
+            Finishes the name query operation
+            </summary>
+            <param name="result">Asyncronous state</param>
+            <returns>Name result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginGetGuid(System.String,System.AsyncCallback,System.Object)">
+            <summary>
+            Begins an asyncronous operation to query for a user's guid using a name
+            </summary>
+            <param name="pggi">Name</param>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.EndGetGuid(System.IAsyncResult)">
+            <summary>
+            Finishes the guid query operation
+            </summary>
+            <param name="result">Asyncronous state</param>
+            <returns>Guid result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginGetInfo(System.Guid,System.AsyncCallback,System.Object)">
+            <summary>
+            Begins an asyncronous operation to query user's information using a guid
+            </summary>
+            <param name="guid">Guid</param>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginGetInfo(System.String,System.AsyncCallback,System.Object)">
+            <summary>
+            Begins an asyncronous operation to query user's information using a name
+            </summary>
+            <param name="pggi">Name</param>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.EndGetInfo(System.IAsyncResult)">
+            <summary>
+            Finishes the information query operaition
+            </summary>
+            <param name="result">Asyncronous state</param>
+            <returns>Guid result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginRegister(System.String,System.String,System.String,System.AsyncCallback,System.Object)">
+            <summary>
+            Begins an asyncronous registration operation
+            </summary>
+            <exception cref="T:System.ArgumentException"></exception>
+            <param name="username">Unique PGGI</param>
+            <param name="password">Password</param>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <param name="email">Email. Null if not used</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.EndRegister(System.IAsyncResult)">
+            <summary>
+            Finishes the registration operation
+            </summary>
+            <param name="result">Asyncronous state</param>
+            <returns>Registration result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginGetRights(System.AsyncCallback,System.Object)">
+            <summary>
+            Begins an asyncronous get rights query
+            </summary>
+            <remarks>User must be loged-in</remarks>
+            <exception cref="T:PGGI.NotLogedInException">Thrown if the user is not loged in</exception>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.EndGetRights(System.IAsyncResult)">
+            <summary>
+            Finishes the get rights operation
+            </summary>
+            <param name="result">Asyncronous state</param>
+            <returns>Rights result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginSetRights(System.Boolean,System.AsyncCallback,System.Object)">
+            <summary>
+            Sets the application's user's rights. Look through the official documentation for more information
+            </summary>
+            <exception cref="T:PGGI.NotLogedInException">Thrown if the user is not loged in</exception>
+            <param name="rights">Application's rights</param>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.EndSetRights(System.IAsyncResult)">
+            <summary>
+            Finishes the set rights operation
+            </summary>
+            <param name="result">Asyncronous state</param>
+            <returns>Operation result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginGetApplicationId(System.String,System.AsyncCallback,System.Object)">
+            <summary>
+            Begins the get application id operation
+            </summary>
+            <param name="name">Application Name</param>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.EndGetApplicationId(System.IAsyncResult)">
+            <summary>
+            Ends the get application id operation
+            </summary>
+            <param name="result">Asyncronous state</param>
+            <returns>Operation result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginGetApplicationName(System.Int64,System.AsyncCallback,System.Object)">
+            <summary>
+            Begins the get application name operation
+            </summary>
+            <param name="id">Application Id</param>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.EndGetApplicationName(System.IAsyncResult)">
+            <summary>
+            Ends the get application name operation
+            </summary>
+            <param name="result">Asyncronous state</param>
+            <returns></returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginGetApplicationUserData(System.Int64,System.String,System.String,System.Guid,System.String,System.AsyncCallback,System.Object)">
+            <summary>
+            Gets user data
+            </summary>
+            <param name="id">Application Id</param>
+            <param name="field">Data field</param>
+            <param name="accessKey">Application Access Key</param>
+            <param name="guid">User guid. Set to <value>Guid.Empty</value> if using the username</param>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <param name="username">Username. Null if not used</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginGetApplicationUserData(System.String,System.Guid,System.String,System.AsyncCallback,System.Object)">
+            <summary>
+            Gets user data using the current Application and Application Access Key
+            </summary>
+            <param name="field">Data field</param>
+            <param name="guid">User guid. Set to <value>Guid.Empty</value> if using the username</param>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <param name="username">Username. Null if not used</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginGetApplicationUserData(System.String,System.AsyncCallback,System.Object)">
+            <summary>
+            Gets user data using the current Application and Application Access Key and Guid/Username
+            </summary>
+            <param name="field">Data field</param>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.EndGetApplicationUserData``1(System.IAsyncResult)">
+            <summary>
+            Finishes get application user data operation
+            </summary>
+            <typeparam name="T">What type of data do you want to get. Use <see cref="T:System.String"/> if no conversion is wanted</typeparam>
+            <param name="result">Asyncronous state</param>
+            <returns>Operation result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginGetApplicationUsers(System.Int64,System.String,System.Int32,System.AsyncCallback,System.Object)">
+            <summary>
+            Queries all of the application's users
+            </summary>
+            <param name="id">Application Id</param>
+            <param name="accessKey">Application Access Key</param>
+            <param name="page">Page number starting from zero. A page contains 128 records at maximum</param>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginGetApplicationUsers(System.Int32,System.AsyncCallback,System.Object)">
+            <summary>
+            Queries all of the application's users using current application id and access key
+            </summary>
+            <param name="page">Page number starting from zero. A page contains 128 records at maximum</param>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.EndGetApplicationsUsers(System.IAsyncResult)">
+            <summary>
+            Finishes the query for application's users
+            </summary>
+            <param name="result">Asyncronous state</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginGetHighscores(System.Int64,System.String,System.AsyncCallback,System.Object)">
+            <summary>
+            Queries the application's top 100 players
+            </summary>
+            <param name="id">Application Id</param>
+            <param name="accessKey">Application Access Key</param>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginGetHighscores(System.AsyncCallback,System.Object)">
+            <summary>
+            Queries the application's top 100 players using the current application id and access key
+            </summary>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.EndGetHighscores(System.IAsyncResult)">
+            <summary>
+            Ends the highscore query 
+            </summary>
+            <param name="result">Asyncronous state</param>
+            <returns>Operation result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginGetData(System.String,System.AsyncCallback,System.Object)">
+            <summary>
+            Gets the current user's data. Must be loged in.
+            </summary>
+            <exception cref="T:PGGI.NotLogedInException">Thrown if user is not loged in</exception>
+            <param name="field">Data field</param>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.EndGetData``1(System.IAsyncResult)">
+            <summary>
+            Ends the get data operation
+            </summary>
+            <typeparam name="T">What type of data do you want to get. Use <see cref="T:System.String"/> if no conversion is wanted</typeparam>
+            <param name="result">Asyncronous state</param>
+            <returns>Operation result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginSetData(System.String,System.String,System.AsyncCallback,System.Object)">
+            <summary>
+            Sets the current user's data. Must be loged in.
+            </summary>
+            <exception cref="T:PGGI.NotLogedInException">Thrown if user is not loged in</exception>
+            <param name="field">Data field</param>
+            <param name="value">Field value</param>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.EndSetData(System.IAsyncResult)">
+            <summary>
+            End the set data operation
+            </summary>
+            <param name="result">Asyncronous state</param>
+            <returns>Operation result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.BeginRefresh(System.AsyncCallback,System.Object)">
+            <summary>
+            Refreshes the user's tocket
+            </summary>
+            <exception cref="T:PGGI.NotLogedInException">Thrown if user is not loged in</exception>
+            <param name="callback">Operation callback</param>
+            <param name="state">User state</param>
+            <returns>Result</returns>
+        </member>
+        <member name="M:PGGI.PGGIProvider.EndRefresh(System.IAsyncResult)">
+            <summary>
+            End the refresh operation
+            </summary>
+            <param name="result">Asyncronous state</param>
+            <returns>Operation result</returns>
+        </member>
+        <member name="P:PGGI.PGGIProvider.Application">
+            <summary>
+            Gets or sets the application this instance will be working with
+            </summary>
+        </member>
+        <member name="P:PGGI.PGGIProvider.ApplicationId">
+            <summary>
+            Gets or sets the application id this instance will be working with
+            <remarks>The provider has prefernce over this field than the <see cref="P:PGGI.PGGIProvider.Application"/> field</remarks>
+            </summary>
+        </member>
+        <member name="P:PGGI.PGGIProvider.PGGI">
+            <summary>
+            Gets or sets the user this instnace will be working with
+            </summary>
+        </member>
+        <member name="P:PGGI.PGGIProvider.Guid">
+            <summary>
+            Gets or sets the guid this instance will be working with
+            <remarks>The provider has prefernce over this field than the <see cref="P:PGGI.PGGIProvider.PGGI"/> field</remarks>
+            </summary>
+        </member>
+        <member name="P:PGGI.PGGIProvider.Token">
+            <summary>
+            Gets the token
+            </summary>
+        </member>
+        <member name="P:PGGI.PGGIProvider.Password">
+            <summary>
+            Gets or sets the user's password
+            </summary>
+        </member>
+        <member name="P:PGGI.PGGIProvider.UserAccessKey">
+            <summary>
+            User operation's access key
+            </summary>
+        </member>
+        <member name="P:PGGI.PGGIProvider.ApplicationAccessKey">
+            <summary>
+            Application operation's access key
+            </summary>
+        </member>
+    </members>
+</doc>

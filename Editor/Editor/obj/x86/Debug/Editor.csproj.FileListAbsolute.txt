@@ -1,0 +1,16 @@
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\bin\x86\Debug\Content\GameFont.xnb
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\bin\x86\Debug\Content\Planet.xnb
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\bin\x86\Debug\Editor.dll
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\bin\x86\Debug\Editor.pdb
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\obj\x86\Debug\Editor.dll
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\obj\x86\Debug\Editor.pdb
+C:\Users\Endoro\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\obj\x86\Debug\Editor.csprojResolveAssemblyReference.cache
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\bin\x86\Debug\Content\GameFont.xnb
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\bin\x86\Debug\Content\Planet.xnb
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\bin\x86\Debug\Editor.dll
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\bin\x86\Debug\Editor.pdb
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\obj\x86\Debug\Editor.csprojResolveAssemblyReference.cache
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\obj\x86\Debug\Editor.dll
+C:\Users\Pavlo Malynin\Documents\Visual Studio 2010\Projects\VelesConflict\Editor\Editor\obj\x86\Debug\Editor.pdb

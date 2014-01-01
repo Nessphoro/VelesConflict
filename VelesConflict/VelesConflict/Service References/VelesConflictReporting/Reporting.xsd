@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/VelesConflictDataReporting" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/VelesConflictDataReporting" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://api.velesconflict.com/Reporting/Reporting.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="GameUsageStastics">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Actions" type="xs:int" />
+      <xs:element minOccurs="0" name="DeviceID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Difficulty" type="xs:int" />
+      <xs:element minOccurs="0" name="Map" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TimeSpent" type="ser:duration" />
+      <xs:element minOccurs="0" name="Winner" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GameUsageStastics" nillable="true" type="tns:GameUsageStastics" />
+  <xs:complexType name="MenuUsageStatistic">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Actions" type="xs:int" />
+      <xs:element minOccurs="0" name="DeviceID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Menu" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TimeSpent" type="ser:duration" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MenuUsageStatistic" nillable="true" type="tns:MenuUsageStatistic" />
+  <xs:complexType name="ArrayOfMenuUsageStatistic">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MenuUsageStatistic" nillable="true" type="tns:MenuUsageStatistic" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMenuUsageStatistic" nillable="true" type="tns:ArrayOfMenuUsageStatistic" />
+  <xs:complexType name="ArrayOfGameUsageStastics">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GameUsageStastics" nillable="true" type="tns:GameUsageStastics" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGameUsageStastics" nillable="true" type="tns:ArrayOfGameUsageStastics" />
+</xs:schema>
